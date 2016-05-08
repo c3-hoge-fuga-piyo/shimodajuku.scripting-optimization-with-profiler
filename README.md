@@ -13,7 +13,7 @@ Unity プロファイラー指南
 
 ﾜﾀｼﾊ ﾌﾟﾛｸﾞﾗﾐﾝｸﾞ ﾁｮｯﾄﾃﾞｷﾙ
 
-Github: c3-hoge-fuga-piyo
+Github: [c3-hoge-fuga-piyo](https://github.com/c3-hoge-fuga-piyo)
 
 ___
 
@@ -64,9 +64,10 @@ ___
 ---
 
 Unityに内蔵されているパフォーマンス計測ツールです
-  - Windowsにとっての「タスクマネージャー」
-  - OS Xにとっての「アクティビティモニタ」
-  - Linuxにとっての「vmstat」
+
+- Windowsにとっての「タスクマネージャー」
+- OS Xにとっての「アクティビティモニタ」
+- Linuxにとっての「vmstat」
 
 ---
 
