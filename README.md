@@ -317,6 +317,32 @@ ___
 
 ---
 
+「ディーププロファイリング」は有用ですが非常に負荷が高く、
+場合によっては激しいフレーム落ちにより計測が困難になります
+
+___
+
+「Profiler API」を使う
+
+___
+
+`UnityEngine.Profiler.BeginSample`と`UnityEngine.Profiler.EndSample`を使用することにより、
+メソッド中の任意の区間の計測データをプロファイラーに計上することが可能になります
+
+___
+
+下記のコードで実際に計測してみました
+
+![Sample Code](./images/profiler_api/sample_code.png)
+
+___
+
+おわかりいただけただろうか……
+
+![Preview](./images/profiler_api/preview.png)
+
+---
+
 #### タイムデータ
 
 ![Time Data](./images/cpu_usage_area/time_data/overview.png)
@@ -434,6 +460,7 @@ ___
 ## あわせて読みたい
 
 - [Unity - マニュアル: プロファイラー ウィンドウ](http://docs.unity3d.com/ja/current/Manual/Profiler.html)
+- [Unity - スクリプトリファレンス: Profiler](http://docs.unity3d.com/ja/current/ScriptReference/Profiler.html)
 - Unite 2016 Tokyo - モバイル端末向けのUnityアプリケーションの最適化実践テクニック
   - [FILES](http://japan.unity3d.com/unite/unite2016/files/DAY1_1330_Room1_HarknessDundore_Long_Big.pdf)
   - [MOVIES](https://www.youtube.com/watch?v=bAQP2cH93po)
