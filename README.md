@@ -324,7 +324,7 @@ ___
 
 「Profiler API」を使う
 
----
+___
 
 `UnityEngine.Profiler.BeginSample`と`UnityEngine.Profiler.EndSample`を使用することにより、
 メソッド中の任意の区間の計測データをプロファイラーに計上することが可能になります
