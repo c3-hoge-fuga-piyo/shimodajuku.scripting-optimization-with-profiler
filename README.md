@@ -230,7 +230,8 @@ Scripts
 
 スクリプト上で実行される処理が含まれます
 
-- `MonoBehaviour.Update`をはじめとするUnityのイベント関数や、その他のメソッドの処理すべてが含まれます
+- `MonoBehaviour.Update`をはじめとするUnityのイベント関数や、Unity APIの処理すべてが含まれます
+  - ユーザー定義のメソッドは後述する「ディーププロファイリング」を行わない限り計測されません
 - スクリプトの最適化を行う際の指標になります
 
 ___
@@ -285,6 +286,34 @@ Others
 既に挙げたカテゴリに含まれないものすべてを含みます
 
 - 何もかもが詰め込まれているため、階層データでよく確認しましょう
+
+---
+
+##### ディーププロファイリング
+
+---
+
+プロファイラーはUnityのイベント関数やUnity APIの実行のみを計上しますが  
+「ディーププロファイリング」を有効することにより、ユーザー定義のメソッドも
+計測対象に含むようになります
+
+___
+
+プロファイラー上部にある「Deep Profile」ボタンを有効にする
+
+![Switching](./images/deep_profiling/switching.png)
+
+___
+
+下記のコードで実際に計測してみました
+
+![Sample Code](./images/deep_profiling/sample_code.png)
+
+___
+
+おわかりいただけただろうか……
+
+![Preview](./images/deep_profiling/preview.png)
 
 ---
 
