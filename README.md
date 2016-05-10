@@ -19,6 +19,7 @@ ___
 
 本ドキュメントは下記のいずれかの環境から、  
 スライドとして閲覧することを前提としています
+
 - [Slideck](https://slideck.io/)
 - [reveal.js](https://github.com/hakimel/reveal.js/)
 - [revealgo](https://github.com/yusukebe/revealgo/)
@@ -185,6 +186,7 @@ Timeline モード
 ![Hierarchy](./images/cpu_usage_area/timeline.png)
 
 Hierarchy モードで得られるデータをタイムライン形式で表示します
+
 - マルチスレッディングがサポートされているプラットフォームでは
   各スレッドのタイムラインが表示されます
   （画像はWebGL環境での計測であるため、メインスレッドのみ表示されています）
